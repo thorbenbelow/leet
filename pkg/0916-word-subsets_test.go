@@ -45,7 +45,7 @@ func wordSubsets(words1 []string, words2 []string) []string {
 
 }
 
-func TestExample1(t *testing.T) {
+func TestWordSubsetsExample1(t *testing.T) {
 	words1 := []string{"amazon", "apple", "facebook", "google", "leetcode"}
 	words2 := []string{"e", "o"}
 
@@ -54,7 +54,7 @@ func TestExample1(t *testing.T) {
 		t.Fatalf("Expected 3, got %d: %v", len(result), result)
 	}
 }
-func TestExample2(t *testing.T) {
+func TestWordSubsetsExample2(t *testing.T) {
 	words1 := []string{"amazon", "apple", "facebook", "google", "leetcode"}
 	words2 := []string{"l", "e"}
 
